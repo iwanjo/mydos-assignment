@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './css-modules/Register.module.css'
 import Head from 'next/head';
+import Login from './Login';
 
 function Register() {
     return(
@@ -36,6 +37,16 @@ function Register() {
             <label>Password</label>
             <input placeholder="Password" type="password" required></input>
             <button>Register</button>
+
+            <p>Or Sign Up With</p>
+            <div className={styles.iconsContainer}>
+            <img src="/facebook(1).png" alt="Facebook Logo"></img>
+            <img src="/google(1).png" alt="Google Logo"></img>
+            </div>
+
+            <Link href='/Login'>
+            <h4>Already have an account?</h4>
+            </Link>
 
         </div>
 
