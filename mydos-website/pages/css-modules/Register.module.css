@@ -1,0 +1,35 @@
+.logoImg{
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.formArea{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formArea input{
+    margin-bottom: 2rem;
+    
+}
+
+.formArea button{
+    border: 1px solid rgb(42, 74, 117);
+    outline: none;
+    background: white;
+    padding: .6rem;
+    border-radius: 5px;
+    color: rgb(42, 74, 117);
+}
+
+.formArea button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(42, 74, 117);
+}
